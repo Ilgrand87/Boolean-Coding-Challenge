@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: verdana;
+  color: white;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 70%;
+  border: 0px solid;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.hv-center{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo, .motto{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: rgba(0,221,0,255);
+}
+
+.main-section{
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 5px;
+}
+
+.buttons{
+  background-color: rgba(0,221,0,255);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+button{
+  margin-left: 5px;
+  color: black;
+}
+
+.scooter{
+  padding-top: 20px;
+}
+
+.scooter-name{
+  font-size: 21px;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+
+.chargestatus{
+  height: 30px;
+  border: 0px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.low{
+  width: 15%;
+  background-color: rgba(190,65,65,255);
+}
+
+.medium{
+  width: 40%;
+  background-color: rgba(245,180,83,255);
+}
+
+.full{
+  width: 60%;
+  background-color: rgba(30,195,30,255);
+}
